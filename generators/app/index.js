@@ -77,7 +77,7 @@ module.exports = generators.Base.extend({
 
     //gitignore
     this.fs.copy(
-      this.templatePath('.gitignore'),
+      this.templatePath('gignore'),
       this.destinationPath('.gitignore')
     );
 
