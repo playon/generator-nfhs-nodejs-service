@@ -1,8 +1,8 @@
 {
   "name": "generator-nfhs-nodejs-service",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "template for nfhs node service",
-  "files": ["app"],
+  "files": ["generators"],
   "keywords": [
     "yeoman-generator"
   ],
