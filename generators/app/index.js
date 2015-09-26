@@ -75,6 +75,12 @@ module.exports = generators.Base.extend({
     };
     this.write('package.json', JSON.stringify(pkg, null, 2));
 
+    //gitignore
+    this.fs.copy(
+      this.templatePath('.gitignore'),
+      this.destinationPath('.gitignore')
+    );
+
     //nvmrc
     this.fs.copyTpl(
       this.templatePath('.nvmrc'),
