@@ -4,6 +4,9 @@ var pswd = '';
 var db = '<%= dbname %>';
 var tz = 'UTC';
 
+/*
+this will override db settings with values from the opsworks rds settings
+
 var opsworksSettingsFile = __dirname + '/../opsworks.js';
 if (require('fs').existsSync(opsworksSettingsFile)) {
   var opsworks = require(opsworksSettingsFile);
@@ -12,6 +15,7 @@ if (require('fs').existsSync(opsworksSettingsFile)) {
   pswd = opsworks.db.password;
   db = opsworks.db.database;
 }
+*/
 
 module.exports = {
 
