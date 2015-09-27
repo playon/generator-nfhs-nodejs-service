@@ -1,6 +1,6 @@
 {
   "name": "generator-nfhs-nodejs-service",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "template for nfhs node service",
   "files": ["generators", "app"],
   "keywords": [
